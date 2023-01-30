@@ -1,0 +1,34 @@
+body{
+    background: #000;
+    color: aliceblue;
+    margin: 0px;
+    width: 100vw;
+    padding: 0px;
+}
+.txt{
+    padding: 10px;
+    font-size: 2rem;
+    width: 100vw;
+    color:rgb(255, 255, 255);
+    border: 0px rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 0);
+    height: 70vh;
+    margin-top: -11vh;
+    outline: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .main{
+
+} */
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2rem;
+}
+.content{
+    font-size: 2rem;
+    padding: 10px;
+    width: 100vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(91, 91, 91);
+}
