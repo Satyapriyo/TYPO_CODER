@@ -13,7 +13,8 @@ body{
     border: 0px rgba(0, 0, 0, 0);
     background: rgba(255, 255, 255, 0);
     height: 70vh;
-    margin-top: -11vh;
+    position: absolute;
+    top: 7rem;
     outline: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -26,9 +27,20 @@ h1{
     margin: 2rem;
 }
 .content{
+    position: absolute;
+    top: 7rem;
     font-size: 2rem;
     padding: 10px;
     width: 100vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(91, 91, 91);
+}
+#final_ans{
+    position: absolute;
+    bottom: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 24%;
 }
