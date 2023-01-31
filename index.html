@@ -27,13 +27,14 @@
         cols="40"
         rows="5"
         spellcheck="false"
+        onfocus="startGame()"
+        onchange="processCurrentText()"
       ></textarea>
       <div id="final_ans">
-        <div >0 words</div>
-        <div >0 words</div>
-        <div >0 words</div>
-        <div >0 words</div>
-        <div >0 words</div>
+        <div id = "total_words">0 words</div>
+        <div id = "total_errors">0 Errors</div>
+        <div  id= "total_accuracy">100% Accuracy</div>
+        <div  id= "timer">60 s</div>
       </div>
     </div>
     <script src="index.js"></script>
