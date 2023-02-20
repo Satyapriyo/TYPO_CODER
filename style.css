@@ -6,7 +6,7 @@ body {
   padding: 0px;
   overflow: hidden;
 }
-.txt {
+.input_area {
   padding: 10px;
   font-size: 2rem;
   width: 100vw;
@@ -27,7 +27,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 2rem;
 }
-.content {
+.quote {
   position: absolute;
   top: 7rem;
   font-size: 2rem;
@@ -35,7 +35,9 @@ h1 {
   width: 100vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(91, 91, 91);
+  height: 50vh;
 }
+
 #final_ans {
   position: absolute;
   bottom: 1rem;
@@ -52,4 +54,16 @@ h1 {
 
 .correct_char {
   color: rgb(101, 248, 101);
+  text-decoration: underline;
+}
+
+button {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.cpm.wpm {
+  display: none;
 }

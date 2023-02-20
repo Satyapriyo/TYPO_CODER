@@ -11,32 +11,41 @@
     <h1>TYPO CODER</h1>
     <div class="main">
       <section>
-        <div class="content" id="content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, non
-          nisi. Debitis esse dolorum ullam fuga pariatur dolor voluptatum,
-          nesciunt sint excepturi a! Assumenda, ipsum laudantium. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Nesciunt mollitia illo
-          dicta perspiciatis laboriosam eum, voluptatum doloribus, at animi nemo
-          vel cupiditate aliquid. Ab voluptas magni, velit repellendus in vel
-          inventore aperiam voluptatem laudantium!
-        </div>
+        <div class="quote" id="content"></div>
       </section>
       <textarea
-        class="txt"
-        id="txt"
+        class="input_area"
         cols="40"
         rows="5"
         spellcheck="false"
+        oninput="processCurrentText()"
         onfocus="startGame()"
-        onchange="processCurrentText()"
       ></textarea>
+      <!-- onfocus="startGame()" -->
       <div id="final_ans">
-        <div id = "total_words">0 words</div>
-        <div id = "total_errors">0 Errors</div>
-        <div  id= "total_accuracy">100% Accuracy</div>
-        <div  id= "timer">60 s</div>
+        <div class="wpm">
+          <p class="header_text">WPM</p>
+          <div id="curr_wpm">0</div>
+        </div>
+        <div class="cpm">
+          <div class="header_text">CPM</div>
+          <div class="curr_cpm">100</div>
+        </div>
+        <div class="errors">
+          <p class="header_text">ERRORS</p>
+          <div id="curr_errors">0</div>
+        </div>
+        <div class="accuracy">
+          <p>% accuracy</p>
+          <div id="curr_accuracy">100</div>
+        </div>
+        <div class="timer">
+          <p class="header_text">TIME</p>
+          <div id="curr_time">60s</div>
+        </div>
       </div>
     </div>
+    <button class="restart_btn" onclick="resetValues()">restart</button>
     <script src="index.js"></script>
   </body>
 </html>
