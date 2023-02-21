@@ -125,15 +125,12 @@ function resetValues() {
   characterTyped = 0;
   quoteNo = 0;
   input_area.disabled = false;
-
   input_area.value = "";
   quote_text.textContent = "Click on the area below to start the game.";
   accuracy_text.textContent = 100;
   timer_text.textContent = timeLeft + "s";
   error_text.textContent = 0;
   restart_btn.style.display = "none";
-  cpm_group.style.display = "none";
-  wpm_group.style.display = "none";
 }
 function updateTimer() {
   if (timeLeft > 0) {
@@ -148,12 +145,12 @@ function updateTimer() {
     finishGame();
   }
 }
-
 function finishGame() {
   // stop the timer
   clearInterval(timer);
 
   // disable the input area
+  input_area.value ="";
   input_area.disabled = true;
 
   // show finishing text
@@ -164,7 +161,7 @@ function finishGame() {
 
   // calculate cpm and wpm
   cpm = Math.round((characterTyped / timeElapsed) * 60);
-  wpm = Math.round((characterTyped / 5 / timeElapsed) * 60);
+  wpm = Math.round(((characterTyped / 5) / timeElapsed) * 60);
 
   // update cpm and wpm text
   cpm_text.textContent = cpm;

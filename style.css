@@ -64,6 +64,12 @@ button {
   align-items: center;
   justify-content: center;
 }
-.cpm.wpm {
+
+.cpm  .wpm {
   display: none;
+}
+.cpm , .wpm, .errors ,.accuracy ,.timer{
+  background: #701f1f;
+  width: 5rem;
+  padding: 1rem;
 }
