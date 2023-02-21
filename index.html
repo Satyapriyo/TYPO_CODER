@@ -11,7 +11,7 @@
     <h1>TYPO CODER</h1>
     <div class="main">
       <section>
-        <div class="quote" id="content"></div>
+        <div class="quote" id="content">click here to start</div>
       </section>
       <textarea
         class="input_area"
@@ -22,27 +22,27 @@
         onfocus="startGame()"
       ></textarea>
       <!-- onfocus="startGame()" -->
-      <div id="final_ans">
-        <div class="wpm">
-          <p class="header_text">WPM</p>
-          <div class="curr_wpm">0</div>
-        </div>
-        <div class="cpm">
-          <div class="header_text">CPM</div>
-          <div class="curr_cpm">100</div>
-        </div>
-        <div class="errors">
-          <p class="header_text">ERRORS</p>
-          <div id="curr_errors">0</div>
-        </div>
-        <div class="accuracy">
-          <p class="header_text">accuracy</p>
-          <div id="curr_accuracy">100</div>
-        </div>
-        <div class="timer">
-          <p class="header_text">TIME</p>
-          <div id="curr_time">60s</div>
-        </div>
+    </div>
+    <div id="final_ans">
+      <div class="wpm">
+        <p class="header_text">WPM</p>
+        <div class="curr_wpm">0</div>
+      </div>
+      <div class="cpm">
+        <div class="header_text">CPM</div>
+        <div class="curr_cpm">100</div>
+      </div>
+      <div class="errors">
+        <p class="header_text">ERRORS</p>
+        <div id="curr_errors">0</div>
+      </div>
+      <div class="accuracy">
+        <p class="header_text">ACCURACY</p>
+        <div id="curr_accuracy">100</div>
+      </div>
+      <div class="timer">
+        <p class="header_text">TIME</p>
+        <div id="curr_time">60s</div>
       </div>
     </div>
     <button class="restart_btn" onclick="resetValues()">restart</button>

@@ -9,15 +9,18 @@ body {
 .input_area {
   padding: 10px;
   font-size: 2rem;
-  width: 100vw;
+  width: 70vw;
   color: rgb(255, 255, 255);
   border: 0px rgba(0, 0, 0, 0);
-  background: rgba(255, 255, 255, 0);
+  background: rgba(17, 17, 17, 0);
   height: 70vh;
   position: absolute;
   top: 7rem;
   outline: 0px;
+  margin-left: 15vw;
+  margin-right: 15vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
 }
 /* .main{
 
@@ -32,13 +35,15 @@ h1 {
   top: 7rem;
   font-size: 2rem;
   padding: 10px;
-  width: 100vw;
+  width: 70vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(91, 91, 91);
-  height: 50vh;
+  
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
-#final_ans {
+#final_ans{
   position: absolute;
   bottom: 1rem;
   text-align: center;
@@ -69,7 +74,18 @@ button {
   display: none;
 }
 .cpm , .wpm, .errors ,.accuracy ,.timer{
-  background: #701f1f;
   width: 5rem;
   padding: 1rem;
+}
+.cpm{
+  margin-top: 1rem;
+}
+.curr_cpm{
+  margin-top: 1rem;
+}
+.curr_wpm , .curr_cpm , #curr_errors , #curr_accuracy , #curr_time{
+  background:  rgb(101, 248, 101);
+  border-radius: 0.3rem;
+  padding: 1rem;
+  color: black;
 }

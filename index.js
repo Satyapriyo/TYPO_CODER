@@ -22,18 +22,8 @@ let quoteNo = 0;
 let timer = null;
 // define quotes to be used
 let quotes_array = [
-  `When I was attempting to sell the cloud computing services part of the
-  Loudcloud business, I met with Bill Campbell to update him on where I was
-  with the deal. The deal was critical, because without it, the company would
-  almost certainly go bankrupt.
-  After I carefully briefed him on where we were with both interested parties,
-  IBM and EDS, Bill paused for a moment. He looked me in the eyes and said,
-  “Ben, you need to do something in addition to working on this deal. You need to
-  do it alone with your general counsel. You need to prepare the company for
-  bankruptcy.” To an objective observer, this might sound like Bill was prudently
-  advising me to build my contingency plan. But something in his voice and his
-  eyes said something different. They said that he believed the contingency plan
-  was going to be the plan.`,
+  `When I was attempting to sell the cloud computing services part of the Loudcloud business, I met with Bill Campbell to update him on where I was with the deal. The deal was critical, because without it, the company would
+almost certainly go bankrupt.After I carefully briefed him on where we were with both interested parties,IBM and EDS, Bill paused for a moment. He looked me in the eyes and said, “Ben, you need to do something in addition to working on this deal. You need to do it alone with your general counsel. You need to prepare the company for bankruptcy.” To an objective observer, this might sound like Bill was prudently advising me to build my contingency plan. But something in his voice and his eyes said something different. They said that he believed the contingency plan was going to be the plan.`,
   "Failure is the condiment that gives success its flavor.",
   "Wake up with determination. Go to bed with satisfaction.",
   "It's going to be hard, but hard does not mean impossible.",
@@ -81,7 +71,6 @@ function processCurrentText() {
     } else {
       char.classList.add("incorrect_char");
       char.classList.remove("correct_char");
-      
 
       // increment number of errors
       errors++;
@@ -150,7 +139,7 @@ function finishGame() {
   clearInterval(timer);
 
   // disable the input area
-  input_area.value ="";
+  input_area.value = "";
   input_area.disabled = true;
 
   // show finishing text
@@ -161,7 +150,7 @@ function finishGame() {
 
   // calculate cpm and wpm
   cpm = Math.round((characterTyped / timeElapsed) * 60);
-  wpm = Math.round(((characterTyped / 5) / timeElapsed) * 60);
+  wpm = Math.round((characterTyped / 5 / timeElapsed) * 60);
 
   // update cpm and wpm text
   cpm_text.textContent = cpm;
