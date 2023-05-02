@@ -8,19 +8,19 @@ body {
 }
 .input_area {
   padding: 10px;
-  font-size: 2rem;
+  font-size: 3rem;
   width: 70vw;
   color: rgb(255, 255, 255);
   border: 0px rgba(0, 0, 0, 0);
   background: rgba(17, 17, 17, 0);
-  height: 70vh;
+  height: 70vh !important;
   position: absolute;
   top: 7rem;
   outline: 0px;
   margin-left: 15vw;
   margin-right: 15vw;
+  height: 15vh;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  
 }
 /* .main{
 
@@ -33,17 +33,17 @@ h1 {
 .quote {
   position: absolute;
   top: 7rem;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 10px;
   width: 70vw;
+  height: 70vh;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(91, 91, 91);
-  
   margin-left: 15vw;
   margin-right: 15vw;
 }
 
-#final_ans{
+#final_ans {
   position: absolute;
   bottom: 1rem;
   text-align: center;
@@ -64,28 +64,36 @@ h1 {
 
 button {
   position: absolute;
-  bottom: 0px;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
 
-.cpm  .wpm {
+.cpm .wpm {
   display: none;
 }
-.cpm , .wpm, .errors ,.accuracy ,.timer{
-  width: 5rem;
+.cpm,
+.wpm,
+.errors,
+.accuracy,
+.timer {
+  width: 6rem;
   padding: 1rem;
 }
-.cpm{
+.cpm {
   margin-top: 1rem;
 }
-.curr_cpm{
+.curr_cpm {
   margin-top: 1rem;
 }
-.curr_wpm , .curr_cpm , #curr_errors , #curr_accuracy , #curr_time{
-  background:  rgb(101, 248, 101);
+.curr_wpm,
+.curr_cpm,
+#curr_errors,
+#curr_accuracy,
+#curr_time {
+  background: rgb(101, 248, 101);
   border-radius: 0.3rem;
   padding: 1rem;
+  cursor: pointer;
   color: black;
 }

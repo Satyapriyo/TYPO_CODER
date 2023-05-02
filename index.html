@@ -13,14 +13,16 @@
       <section>
         <div class="quote" id="content">click here to start</div>
       </section>
-      <textarea
-        class="input_area"
-        cols="40"
-        rows="5"
-        spellcheck="false"
-        oninput="processCurrentText()"
-        onfocus="startGame()"
-      ></textarea>
+      <code>
+        <textarea
+          class="input_area"
+          cols="40"
+          rows="50"
+          spellcheck="false"
+          oninput="processCurrentText()"
+          onfocus="startGame()"
+        ></textarea>
+      </code>
       <!-- onfocus="startGame()" -->
     </div>
     <div id="final_ans">
@@ -44,8 +46,12 @@
         <p class="header_text">TIME</p>
         <div id="curr_time">60s</div>
       </div>
+      <div class="timer">
+        <p class="header_text restart">Restart Again</p>
+        <div class="restart_btn curr_cpm" onclick="resetValues()">Restart</div>
+      </div>
     </div>
-    <button class="restart_btn" onclick="resetValues()">restart</button>
+
     <script src="index.js"></script>
   </body>
 </html>
