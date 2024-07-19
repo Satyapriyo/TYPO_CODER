@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 body {
-  background: #000;
+  background: #15111c;
   color: aliceblue;
   margin: 0px;
   width: 100vw;
@@ -20,7 +21,7 @@ body {
   margin-left: 15vw;
   margin-right: 15vw;
   height: 15vh;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Tilt Neon", sans-serif;
 }
 /* .main{
 
@@ -37,8 +38,8 @@ h1 {
   padding: 10px;
   width: 70vw;
   height: 70vh;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(91, 91, 91);
+  font-family: "Tilt Neon", sans-serif;
+  color: rgb(182, 182, 182);
   margin-left: 15vw;
   margin-right: 15vw;
 }
@@ -53,12 +54,12 @@ h1 {
   margin-left: 24%;
 }
 .incorrect_char {
-  color: red;
+  color: rgb(255, 74, 74);
   text-decoration: underline;
 }
 
 .correct_char {
-  color: rgb(101, 248, 101);
+  color: rgb(75, 255, 75);
   text-decoration: underline;
 }
 
