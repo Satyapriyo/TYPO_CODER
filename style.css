@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   background: #15111c;
   color: aliceblue;
@@ -11,7 +12,8 @@ body {
   padding: 10px;
   font-size: 3rem;
   width: 70vw;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0);
+  caret-color: aliceblue;
   border: 0px rgba(0, 0, 0, 0);
   background: rgba(17, 17, 17, 0);
   height: 70vh !important;
@@ -21,7 +23,9 @@ body {
   margin-left: 15vw;
   margin-right: 15vw;
   height: 15vh;
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 /* .main{
 
@@ -38,10 +42,12 @@ h1 {
   padding: 10px;
   width: 70vw;
   height: 70vh;
-  font-family: "Tilt Neon", sans-serif;
-  color: rgb(182, 182, 182);
+  font-family: "Poppins", sans-serif;
+  color: rgb(154, 154, 154);
   margin-left: 15vw;
   margin-right: 15vw;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #final_ans {
@@ -52,15 +58,22 @@ h1 {
   justify-content: space-between;
   width: 50%;
   margin-left: 24%;
+  background: rgba(255, 255, 255, 0.915);
+  padding-left: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .incorrect_char {
-  color: rgb(255, 74, 74);
-  text-decoration: underline;
+ 
+ -webkit-text-fill-color: red;
 }
 
 .correct_char {
-  color: rgb(75, 255, 75);
-  text-decoration: underline;
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 
 button {
@@ -92,9 +105,12 @@ button {
 #curr_errors,
 #curr_accuracy,
 #curr_time {
-  background: rgb(101, 248, 101);
+  background: rgb(16, 152, 243);
   border-radius: 0.3rem;
   padding: 1rem;
   cursor: pointer;
-  color: black;
+  color: rgb(255, 255, 255);
+}
+.header_text{
+ color: black; 
 }

@@ -25,13 +25,13 @@ let timer = null;
 let quotes_array = [
   `When I was attempting to sell the cloud computing services part of the Loudcloud business, I met with Bill Campbell to update him on where I was with the deal. `,
   `The concept of lifestyle design as a replacement for multi-staged career planning is sound. `,
-  `I was supposedly one of the best in the world, but it just didn’t register. My partner Alicia shifted from foot to foot as we stood in line with nine other couples, all chosen from over 1,000 competitors from 29 countries and four continents. `,
-  `Pretty much a conversation ender. It’s only half true, besides. The whole truth would take too long. How can I possibly explain that what I do with my time and what I do for money are completely different things? `,
-  `Life doesn’t have to be so damn hard. It really doesn’t. Most people, my past self included, have spent too much time convincing themselves that life has to be hard, a resignation to 9-to-5 drudgery in exchange for (sometimes) relaxing weekends and the occasional keep-it-short-or-get-fired vacation.`,
+  `I was supposedly one of the best in the world, but it just did not register. My partner Alicia shifted from foot to foot as we stood in line with nine other couples, all chosen from over 1,000 competitors from 29 countries and four continents. `,
+  `Pretty much a conversation ender. It is only half true, besides. The whole truth would take too long. How can I possibly explain that what I do with my time and what I do for money are completely different things? `,
+  `Life does not have to be so damn hard. It really does not. Most people, my past self included, have spent too much time convincing themselves that life has to be hard, a resignation to 9-to-5 drudgery in exchange for (sometimes) relaxing weekends and the occasional keep-it-short-or-get-fired vacation.`,
   `Do I have to quit or hate my job? Do I have to be a risk-taker? No on all three counts. From using Jedi mind tricks to disappear from the office to designing businesses that finance your lifestyle, there are paths for every comfort level. `,
-  `I was supposedly one of the best in the world, but it just didn’t register. My partner Alicia shifted from foot to foot as we stood in line with nine other couples, all chosen from over 1,000 competitors from 29 countries and four continents. `,
-  `Assuming you can find me (hard to do), and depending on when you ask me (I’d prefer you didn’t), I could be racing motorcycles in Europe, scuba diving off a private island in Panama, resting under a palm tree between kickboxing sessions in Thailand, or dancing tango in Buenos Aires.`,
-  `If you’ve picked up this book, chances are that you don’t want to sit behind a desk until you are 62.`,
+  `I was supposedly one of the best in the world, but it just did not register. My partner Alicia shifted from foot to foot as we stood in line with nine other couples, all chosen from over 1,000 competitors from 29 countries and four continents. `,
+  `Assuming you can find me (hard to do), and depending on when you ask me (I would prefer you did not), I could be racing motorcycles in Europe, scuba diving off a private island in Panama, resting under a palm tree between kickboxing sessions in Thailand, or dancing tango in Buenos Aires.`,
+  `If you have picked up this book, chances are that you do not want to sit behind a desk until you are 62.`,
   `In the last five years, I have answered this question for myself, and this book will answer it for you. `,
 ];
 function updateQuote() {
