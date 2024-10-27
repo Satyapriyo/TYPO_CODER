@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   background: #15111c;
   color: aliceblue;
@@ -24,8 +23,9 @@ body {
   margin-right: 15vw;
   height: 15vh;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
+  word-spacing: 1rem;
 }
 /* .main{
 
@@ -46,8 +46,9 @@ h1 {
   color: rgb(154, 154, 154);
   margin-left: 15vw;
   margin-right: 15vw;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
+  word-spacing: 1rem;
 }
 
 #final_ans {
@@ -58,18 +59,17 @@ h1 {
   justify-content: space-between;
   width: 50%;
   margin-left: 24%;
-  background: rgba(255, 255, 255, 0.915);
+  background: rgba(21, 27, 32, 0.957);
   padding-left: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
   border-radius: 1rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
 }
 .incorrect_char {
- 
- -webkit-text-fill-color: red;
+  -webkit-text-fill-color: red;
 }
 
 .correct_char {
@@ -111,6 +111,6 @@ button {
   cursor: pointer;
   color: rgb(255, 255, 255);
 }
-.header_text{
- color: black; 
+.header_text {
+  color: rgb(255, 255, 255);
 }
