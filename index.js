@@ -23,16 +23,16 @@ let quoteNo = 0;
 let timer = null;
 // define quotes to be used
 let quotes_array = [
-  `When I was attempting to sell the cloud computing services part of the Loudcloud business, I met with Bill Campbell to update him on where I was with the deal. `,
-  `The concept of lifestyle design as a replacement for multi-staged career planning is sound. `,
-  `I was supposedly one of the best in the world, but it just did not register. My partner Alicia shifted from foot to foot as we stood in line with nine other couples, all chosen from over 1,000 competitors from 29 countries and four continents. `,
-  `Pretty much a conversation ender. It is only half true, besides. The whole truth would take too long. How can I possibly explain that what I do with my time and what I do for money are completely different things? `,
-  `Life does not have to be so damn hard. It really does not. Most people, my past self included, have spent too much time convincing themselves that life has to be hard, a resignation to 9-to-5 drudgery in exchange for (sometimes) relaxing weekends and the occasional keep-it-short-or-get-fired vacation.`,
-  `Do I have to quit or hate my job? Do I have to be a risk-taker? No on all three counts. From using Jedi mind tricks to disappear from the office to designing businesses that finance your lifestyle, there are paths for every comfort level. `,
-  `I was supposedly one of the best in the world, but it just did not register. My partner Alicia shifted from foot to foot as we stood in line with nine other couples, all chosen from over 1,000 competitors from 29 countries and four continents. `,
-  `Assuming you can find me (hard to do), and depending on when you ask me (I would prefer you did not), I could be racing motorcycles in Europe, scuba diving off a private island in Panama, resting under a palm tree between kickboxing sessions in Thailand, or dancing tango in Buenos Aires.`,
-  `If you have picked up this book, chances are that you do not want to sit behind a desk until you are 62.`,
-  `In the last five years, I have answered this question for myself, and this book will answer it for you. `,
+  `the light was bright and stars were shining in the sky they are all around and have beauty within`,
+  `they have been there for ages and the world was silent as stars are bright in the endless night`,
+  `we are the ones who see and have the strength to find what lies beyond the endless sky and stars`,
+  `in the night the stars are bright and they are there to guide us while we have dreams within`,
+  `the world was silent and they are watching from above while we have the light and stars to find`,
+  `there was a calm and silent night where the stars are shining they have light to guide the way`,
+  `they are the light we have in times of need the stars are bright and the night is clear and calm`,
+  `the stars have been there and are shining bright while we watch and wonder was there more beyond`,
+  `in the vast night they are bright and have a calm over the world that was once dark and silent`,
+  `we are here to see the stars as they shine and have light was there for us in the calm of night`
 ];
 function updateQuote() {
   quote_text.textContent = null;
