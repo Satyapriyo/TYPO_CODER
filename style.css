@@ -12,6 +12,10 @@ body {
   padding: 0px;
   overflow: hidden;
 }
+h1{
+  color: rgb(239, 239, 239);
+  text-shadow: 1px 1px 3px #00000057;
+}
 .input_area {
   z-index: 100;
   padding: 10px;
@@ -56,6 +60,7 @@ h1 {
   font-weight: 700;
   font-style: normal;
   word-spacing: 1rem;
+  text-shadow:  2px 2px 5px #00000057;
 }
 
 #final_ans {
@@ -67,7 +72,7 @@ h1 {
   justify-content: space-between;
   width: 50%;
   margin-left: 24%;
-  background: rgba(21, 27, 32, 0.957);
+  background: rgba(22, 27, 61, 0.618);
   padding-left: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
